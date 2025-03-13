@@ -1,0 +1,9 @@
+# <mafft:7.525 | KaiyuanHan | 2025-03-13>
+ARGS
+    <else>
+        mafft --help
+    <main>
+        mafft ::*APP-ARGS*::
+RUN
+    <container:taf-mafft-v7.525:ghcr.io/taffish-org/mafft:7.525>
+        ::*MAIN*::
